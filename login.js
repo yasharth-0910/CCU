@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var enteredPassword = document.getElementById("password").value;
 
     // Check if the username and password are correct
-    if (enteredUsername === "yasharth" && enteredPassword === "yasharth"||enteredUsername === "yash" && enteredPassword === "ninni"||enteredUsername === "divyansh" && enteredPassword === "topper"||enteredUsername === "ali" && enteredPassword === "alibhaii"||enteredUsername === "himamnshu" && enteredPassword === "cinekala_ka_dalal"||enteredUsername === "rakshit" && enteredPassword === "pookiebear") {
+    if (enteredUsername === "yasharth" && enteredPassword === "yasharth"||enteredUsername === "yash" && enteredPassword === "ninni"||enteredUsername === "divyansh" && enteredPassword === "topper"||enteredUsername === "ali" && enteredPassword === "alibhaii"||enteredUsername === "himamnshu" && enteredPassword === "cinekala_ka_dalal"||enteredUsername === "rakshit" && enteredPassword === "pookiebear"||enteredUsername === "test" && enteredPassword === "test1") {
       // Redirect to the homepage
       window.location.href = "welcome.html";
     } else {
