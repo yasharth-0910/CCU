@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    min-height: 100vh;
+    color: #FFD700;
+    font-family: "Poppins", sans-serif;
+}
+
+#welcomeText {
+    font-weight: bold;
+    font-size: 6em;  /* Adjust the font size as needed */
+    margin-bottom: 20px;  /* Add margin to create space between text and button */
+}
+
+#nextButton {
+    background-color: #fff200;
+    border: none;
+    color: #1f293a;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+#cursor {
+    display: none;
+    border-right: 2px solid #FFD700;  /* Color of the cursor */
+    margin-left: 2px;  /* Adjust the margin to position the cursor correctly */
+}
+
