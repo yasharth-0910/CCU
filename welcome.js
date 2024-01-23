@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             welcomeText.innerHTML = textToType.substring(0, currentIndex);
             cursor.style.display = "inline"; 
             currentIndex++;
-            setTimeout(typeText, 150); // timing
+            setTimeout(typeText, 150); 
         } else {
             setTimeout(eraseText, 1000);
         }
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (currentText.length > 0) {
             welcomeText.innerHTML = currentText.slice(0, -1);
             cursor.style.display = "inline"; 
-            setTimeout(eraseText, 120); // timing
+            setTimeout(eraseText, 120); 
             currentIndex = 0;
             setTimeout(typeText, 500);
         }
